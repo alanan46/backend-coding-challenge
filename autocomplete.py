@@ -88,7 +88,8 @@ class completer(object):
         if(not self.tree or len(qString) < 1):
             return {}
         # incase user input not capitalized
-        qString.capitalize()
+        qString = qString.capitalize()
+        print qString
         raw = self.tree.findSuffix(qString)
         temp = []
         for name in raw.keys():
