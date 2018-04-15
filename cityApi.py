@@ -80,7 +80,6 @@ class ModelPredict(Resource):
                 # only deal with radius in the presense of lat and lng
                 if args["radius"]:
                     radius = abs(args["radius"][0])
-            print args
             result = self.model.complete(qstr, lat, lng, radius)
 
         except ProcessException as e:
