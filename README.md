@@ -3,6 +3,13 @@
 PERSONAL HOSTING AT
 https://city-name-autocomplete.herokuapp.com
 
+## TO RUN
+python city_api.py 
+(given you have the .pkl data file ready)
+### or
+python build_and_run.py
+(run the whole preprocess --> buildtree --> host API procedure)
+
 ## Requirements
 
 Design an API endpoint that provides auto-complete suggestions for large cities.
@@ -88,9 +95,4 @@ Begin by forking this repo and cloning your fork. GitHub has apps for [Mac](http
 [Windows](http://windows.github.com/) that make this easier.
 
 
-## TO RUN
-python city_api.py 
-(given you have the .pkl data file ready)
-### or
-python build_and_run.py
-(run the whole preprocess --> buildtree --> host API procedure)
+
