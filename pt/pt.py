@@ -1,5 +1,5 @@
 
-from PTNode import PTNode
+from pt_node import PTNode
 """
 implementation of patricia tree
 """

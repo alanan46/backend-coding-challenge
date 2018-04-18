@@ -2,11 +2,13 @@
 
 from flask import Flask
 from flask_restful import Api, Resource, reqparse
-from autocomplete import completer
+from auto_complete import completer
 app = Flask("cityName")
 api = Api(app)
 
-
+"""
+Exception class
+"""
 class ProcessException(Exception):
     def __init__(self, message, errors):
 
@@ -15,32 +17,32 @@ class ProcessException(Exception):
         self.errors = errors
 
 
-# @app.route('/suggestions')
-class ModelPredict(Resource):
-    """Predict values using model."""
+class ModelSuggest(Resource):
+    """Suggest values using model."""
     def __init__(self):
 
 
         # see http://flask-restful.readthedocs.io/en/0.3.5/reqparse.html
-        self.reqparser = reqparse.RequestParser()
+        # all errors are bundled, if any and returned
+        self.reqparser = reqparse.RequestParser(bundle_errors=True)
         self.reqparser.add_argument('q',
                                     required=True,
-                                    type=str,
-                                    action='append')
+                                    type=str
+                                    )
         self.reqparser.add_argument('latitude',
-                                    type=float,
-                                    action='append')
+                                    type=float
+                                    )
         self.reqparser.add_argument('longitude',
-                                    type=float,
-                                    action='append')
+                                    type=float
+                                    )
         self.reqparser.add_argument('radius',
-                                    type=float,
-                                    action='append')
+                                    type=float
+                                    )
 
         """Initialize model class to be used."""
-        self.model = completer("geoPT.pkl")
+        self.model = completer("./pickle_data/geoPT.pkl")
 
-        super(ModelPredict, self).__init__()
+        super(ModelSuggest, self).__init__()
 
     def get(self):
         """Parse out required inputs for model and pass them to your model."""
@@ -49,7 +51,7 @@ class ModelPredict(Resource):
 
         try:
             # ensure the input is correct
-            qstr = args['q'][0]
+            qstr = args['q']
             lat = None
             lng = None
             radius = None
@@ -65,13 +67,13 @@ class ModelPredict(Resource):
                                          )
             # now we know if latitude is here so will be longitude
             if args["latitude"]:
-                lat = args["latitude"][0]
+                lat = args["latitude"]
                 if (lat < -90 or lat > 90):
                     raise ProcessException(
                                               'latitude out of range',
                                               412
                                              )
-                lng = args["longitude"][0]
+                lng = args["longitude"]
                 if (lng < -90 or lng > 90):
                     raise ProcessException(
                                               'longitude out of range',
@@ -79,13 +81,14 @@ class ModelPredict(Resource):
                                              )
                 # only deal with radius in the presense of lat and lng
                 if args["radius"]:
-                    radius = abs(args["radius"][0])
+                    radius = abs(args["radius"])
+            print qstr, lat, lng, radius
             result = self.model.complete(qstr, lat, lng, radius)
 
         except ProcessException as e:
             # our API did not perform its task for some reason, therefore return
             # a 500 error with a relevant message
-            return {'status': 'Failed:  %s'%str(e)}, e.errors
+            return {'status': 'Failed:  %s' % str(e)}, e.errors
 
         else:
             # API Successfully completed task.  Return result and 200 status
@@ -98,9 +101,8 @@ for every class you make. Your endpoints should follow some kind of structure.
 """
 
 
-
 def run():
-    api.add_resource(ModelPredict, '/suggestions')
+    api.add_resource(ModelSuggest, '/suggestions')
     app.run("0.0.0.0", port=5000)
 
 if __name__ == "__main__":

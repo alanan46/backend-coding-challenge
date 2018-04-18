@@ -1,4 +1,4 @@
-CA_PROVINCE_CODE = {
+ {
     "01": "AB",
     "02": "BC",
     "03": "MB",
@@ -13,8 +13,3 @@ CA_PROVINCE_CODE = {
     "13": "NT",
     "14": "NU"
 }
-GEONAME = 1
-LATITUDE = 4
-LONGITUDE = 5
-STATE = 10
-POPULATION = 14
