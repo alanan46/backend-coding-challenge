@@ -86,3 +86,11 @@ These responses are meant to provide guidance. The exact values can vary based o
 
 Begin by forking this repo and cloning your fork. GitHub has apps for [Mac](http://mac.github.com/) and
 [Windows](http://windows.github.com/) that make this easier.
+
+
+## TO RUN
+python city_api.py 
+(given you have the .pkl data file ready)
+### or
+python build_and_run.py
+(run the whole preprocess --> buildtree --> host API procedure)
