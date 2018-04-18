@@ -1,5 +1,7 @@
 # Coveo Backend Coding Challenge
 (inspired by https://github.com/busbud/coding-challenge-backend-c)
+PERSONAL HOSTING AT
+https://city-name-autocomplete.herokuapp.com
 
 ## Requirements
 
