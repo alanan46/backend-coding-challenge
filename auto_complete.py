@@ -35,7 +35,7 @@ class completer(object):
 
     # here we use a rather simple distance score function
     def getStringScore(self, queryKey, resKey):
-        #max 6 min 0
+        # max 6 min 0
         d = max(6-(len(resKey) - len(queryKey)), 0)
 
         return d
@@ -101,8 +101,11 @@ class completer(object):
         if(not self.tree or len(qString) < 1):
             return {}
         # incase user input not capitalized
-        qString = qString.capitalize()
+        qString = qString.title()
+
+        # get all suffix starting with the prefix qString
         raw = self.tree.findSuffix(qString)
+        
         temp = []
         for name in raw.keys():
             for data in raw[name]:

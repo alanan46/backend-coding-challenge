@@ -21,7 +21,7 @@ def _format(output, fName):
     with open(fName) as ctry:
         line = next(ctry)
         header = line.rstrip().split('\t')
-        geoName = header.index("name")
+        geoName = header.index("ascii")
         lat = header.index("lat")
         lng = header.index("long")
         state = header.index("admin1")

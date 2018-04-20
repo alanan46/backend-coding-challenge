@@ -178,6 +178,7 @@ class PT(object):
         for child in curNode.children:
             keyLen = len(key) if len(key) < len(child.key) else len(child.key)
             i = 0
+            # print child.key
             while (i < keyLen):
                 if (key[i] != child.key[i]):
                     break

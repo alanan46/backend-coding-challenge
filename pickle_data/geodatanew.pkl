@@ -215,7 +215,7 @@ ag17
 aS'7366'
 p111
 a.(lp112
-S'B\xc3\xa9cancour'
+S'Becancour'
 p113
 aS'46.33336'
 p114
@@ -597,7 +597,7 @@ p302
 aS'42402'
 p303
 a.(lp304
-S'Ch\xc3\xa2teauguay'
+S'Chateauguay'
 p305
 aS'45.38338'
 p306
@@ -757,7 +757,7 @@ ag23
 aS'48821'
 p383
 a.(lp384
-S'C\xc3\xb4te-Saint-Luc'
+S'Cote-Saint-Luc'
 p385
 aS'45.46536'
 p386
@@ -1109,7 +1109,7 @@ ag23
 aS'5458'
 p560
 a.(lp561
-S'Gasp\xc3\xa9'
+S'Gaspe'
 p562
 aS'48.83341'
 p563
@@ -1680,7 +1680,7 @@ ag17
 aS'70617'
 p846
 a.(lp847
-S"L'\xc3\x8ele-Perrot"
+S"L'Ile-Perrot"
 p848
 aS'45.38338'
 p849
@@ -1900,7 +1900,7 @@ ag11
 aS'13405'
 p956
 a.(lp957
-S'Montr\xc3\xa9al'
+S'Montreal'
 p958
 aS'45.50884'
 p959
@@ -1910,7 +1910,7 @@ ag11
 aS'3268513'
 p961
 a.(lp962
-S'Montr\xc3\xa9al-Ouest'
+S'Montreal-Ouest'
 p963
 aS'45.45286'
 p964
@@ -2140,7 +2140,7 @@ ag23
 aS'636000'
 p1076
 a.(lp1077
-S"Notre-Dame-de-l'\xc3\x8ele-Perrot"
+S"Notre-Dame-de-l'Ile-Perrot"
 p1078
 aS'45.36678'
 p1079
@@ -2480,7 +2480,7 @@ ag5
 aS'12779'
 p1246
 a.(lp1247
-S'Pr\xc3\xa9vost'
+S'Prevost'
 p1248
 aS'45.86678'
 p1249
@@ -2680,7 +2680,7 @@ ag17
 aS'6527'
 p1346
 a.(lp1347
-S'Rosem\xc3\xa8re'
+S'Rosemere'
 p1348
 aS'45.63338'
 p1349
@@ -2750,7 +2750,7 @@ ag11
 aS'23957'
 p1381
 a.(lp1382
-S'Sainte-Ad\xc3\xa8le'
+S'Sainte-Adele'
 p1383
 aS'45.95008'
 p1384
@@ -2830,7 +2830,7 @@ ag11
 aS'11311'
 p1421
 a.(lp1422
-S'Sainte-Th\xc3\xa9r\xc3\xa8se'
+S'Sainte-Therese'
 p1423
 aS'45.63922'
 p1424
@@ -2850,7 +2850,7 @@ ag11
 aS'42062'
 p1431
 a.(lp1432
-S'Saint-F\xc3\xa9licien'
+S'Saint-Felicien'
 p1433
 aS'48.65007'
 p1434
@@ -2880,7 +2880,7 @@ ag11
 aS'71613'
 p1446
 a.(lp1447
-S'Saint-J\xc3\xa9r\xc3\xb4me'
+S'Saint-Jerome'
 p1448
 aS'45.78036'
 p1449
@@ -2930,7 +2930,7 @@ ag11
 aS'17016'
 p1471
 a.(lp1472
-S'Saint-L\xc3\xa9onard'
+S'Saint-Leonard'
 p1473
 aS'45.58773'
 p1474
@@ -3040,7 +3040,7 @@ ag181
 aS'9653'
 p1526
 a.(lp1527
-S'Sept-\xc3\x8eles'
+S'Sept-Iles'
 p1528
 aS'50.20011'
 p1529
@@ -3400,7 +3400,7 @@ ag5
 aS'9707'
 p1706
 a.(lp1707
-S'Trois-Rivi\xc3\xa8res'
+S'Trois-Rivieres'
 p1708
 aS'46.34515'
 p1709
@@ -3772,7 +3772,7 @@ ag95
 aS'99182'
 p1893
 a.(lp1894
-S'Qu\xc3\xa9bec'
+S'Quebec'
 p1895
 aS'46.81228'
 p1896
@@ -3782,7 +3782,7 @@ ag11
 aS'528595'
 p1898
 a.(lp1899
-S'L\xc3\xa9vis'
+S'Levis'
 p1900
 aS'46.80326'
 p1901
@@ -3812,7 +3812,7 @@ ag11
 aS'42240'
 p1913
 a.(lp1914
-S'Rivi\xc3\xa8re-du-Loup'
+S'Riviere-du-Loup'
 p1915
 aS'47.82699'
 p1916
@@ -4032,7 +4032,7 @@ ag34
 aS'7312'
 p2023
 a.(lp2024
-S'Jonqui\xc3\xa8re'
+S'Jonquiere'
 p2025
 aS'48.41648'
 p2026
@@ -64936,7 +64936,7 @@ p35236
 aS'11382'
 p35237
 a.(lp35238
-S'La Ca\xc3\xb1ada Flintridge'
+S'La Canada Flintridge'
 p35239
 aS'34.19917'
 p35240
@@ -66784,7 +66784,7 @@ p36244
 aS'63264'
 p36245
 a.(lp36246
-S'Pi\xc3\xb1on Hills'
+S'Pinon Hills'
 p36247
 aS'34.43333'
 p36248
@@ -69116,7 +69116,7 @@ p37516
 aS'55889'
 p37517
 a.(lp37518
-S'Ca\xc3\xb1on City'
+S'Canon City'
 p37519
 aS'38.44098'
 p37520
@@ -70084,7 +70084,7 @@ p38044
 aS'6130'
 p38045
 a.(lp38046
-S'Espa\xc3\xb1ola'
+S'Espanola'
 p38047
 aS'35.99113'
 p38048
@@ -76893,7 +76893,7 @@ p41758
 aS'9644'
 p41759
 a.(lp41760
-S'K\xc4\x81ne\xe2\x80\x98ohe'
+S"Kane'ohe"
 p41761
 aS'21.40929'
 p41762
@@ -76904,7 +76904,7 @@ p41764
 aS'34597'
 p41765
 a.(lp41766
-S'Kapa\xe2\x80\x98a'
+S"Kapa'a"
 p41767
 aS'22.07521'
 p41768
@@ -76915,7 +76915,7 @@ p41770
 aS'10699'
 p41771
 a.(lp41772
-S'K\xc4\xabhei'
+S'Kihei'
 p41773
 aS'20.75548'
 p41774
@@ -76937,7 +76937,7 @@ p41782
 aS'11704'
 p41783
 a.(lp41784
-S'L\xc4\x81\xe2\x80\x98ie'
+S"La'ie"
 p41785
 aS'21.64547'
 p41786
@@ -76959,7 +76959,7 @@ p41794
 aS'6455'
 p41795
 a.(lp41796
-S'M\xc4\x81\xe2\x80\x98ili'
+S"Ma'ili"
 p41797
 aS'21.41629'
 p41798
@@ -76970,7 +76970,7 @@ p41800
 aS'9488'
 p41801
 a.(lp41802
-S'M\xc4\x81kaha'
+S'Makaha'
 p41803
 aS'21.46627'
 p41804
@@ -77014,7 +77014,7 @@ p41824
 aS'27629'
 p41825
 a.(lp41826
-S'N\xc4\x81n\xc4\x81kuli'
+S'Nanakuli'
 p41827
 aS'21.39056'
 p41828
@@ -77058,7 +77058,7 @@ p41848
 aS'11099'
 p41849
 a.(lp41850
-S'Wahiaw\xc4\x81'
+S'Wahiawa'
 p41851
 aS'21.50211'
 p41852
@@ -77069,7 +77069,7 @@ p41854
 aS'17821'
 p41855
 a.(lp41856
-S'Wai\xe2\x80\x98anae'
+S"Wai'anae"
 p41857
 aS'21.4434'
 p41858
@@ -77113,7 +77113,7 @@ p41878
 aS'13730'
 p41879
 a.(lp41880
-S'Waim\xc4\x81nalo'
+S'Waimanalo'
 p41881
 aS'21.3469'
 p41882
@@ -77146,7 +77146,7 @@ p41896
 aS'38216'
 p41897
 a.(lp41898
-S'Waipi\xe2\x80\x98o'
+S"Waipi'o"
 p41899
 aS'21.41833'
 p41900
@@ -77157,7 +77157,7 @@ p41902
 aS'11674'
 p41903
 a.(lp41904
-S'Waipi\xe2\x80\x98o Acres'
+S"Waipi'o Acres"
 p41905
 aS'21.46485'
 p41906
@@ -77168,7 +77168,7 @@ p41908
 aS'5236'
 p41909
 a.(lp41910
-S'\xe2\x80\x98Ewa Beach'
+S"'Ewa Beach"
 p41911
 aS'21.31556'
 p41912
@@ -77179,7 +77179,7 @@ p41914
 aS'14955'
 p41915
 a.(lp41916
-S'\xe2\x80\x98Ewa Gentry'
+S"'Ewa Gentry"
 p41917
 aS'21.34417'
 p41918
@@ -77190,7 +77190,7 @@ p41920
 aS'22690'
 p41921
 a.(lp41922
-S'\xe2\x80\x98Ewa Villages'
+S"'Ewa Villages"
 p41923
 aS'21.34111'
 p41924
@@ -77201,7 +77201,7 @@ p41926
 aS'6108'
 p41927
 a.(lp41928
-S'H\xc4\x81lawa'
+S'Halawa'
 p41929
 aS'21.37944'
 p41930
@@ -77212,7 +77212,7 @@ p41932
 aS'14014'
 p41933
 a.(lp41934
-S'H\xc4\x81lawa Heights'
+S'Halawa Heights'
 p41935
 aS'21.37848'
 p41936
@@ -77256,7 +77256,7 @@ p41956
 aS'43263'
 p41957
 a.(lp41958
-S'H\xc5\x8dlualoa'
+S'Holualoa'
 p41959
 aS'19.61979'
 p41960
@@ -77278,7 +77278,7 @@ p41968
 aS'371657'
 p41969
 a.(lp41970
-S'\xe2\x80\x98Aiea'
+S"'Aiea"
 p41971
 aS'21.38222'
 p41972
@@ -77289,7 +77289,7 @@ p41974
 aS'9338'
 p41975
 a.(lp41976
-S'\xe2\x80\x98\xc4\x80huimanu'
+S"'Ahuimanu"
 p41977
 aS'21.44472'
 p41978

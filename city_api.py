@@ -1,5 +1,5 @@
 #!usr/bin/env python
-
+from urllib2 import unquote
 from flask import Flask
 from flask_restful import Api, Resource, reqparse
 from auto_complete import completer
@@ -51,7 +51,11 @@ class ModelSuggest(Resource):
 
         try:
             # ensure the input is correct
-            qstr = args['q']
+
+            qstr = unquote(args['q'])
+            
+            # qstr = args['q']
+
             lat = None
             lng = None
             radius = None
@@ -82,7 +86,7 @@ class ModelSuggest(Resource):
                 # only deal with radius in the presense of lat and lng
                 if args["radius"]:
                     radius = abs(args["radius"])
-            print qstr, lat, lng, radius
+
             result = self.model.complete(qstr, lat, lng, radius)
 
         except ProcessException as e:
