@@ -1,5 +1,41 @@
 # Coveo Backend Coding Challenge
 (inspired by https://github.com/busbud/coding-challenge-backend-c)
+PERSONAL HOSTING AT
+https://city-name-autocomplete.herokuapp.com
+
+## TO RUN
+python city_api.py 
+(given you have the .pkl data file ready)
+### or
+python build_and_run.py
+(run the whole preprocess --> buildtree --> host API procedure)
+## OVERVIEW
+1.Preprocess the raw data to extract the needed fields.  
+In this case, the city name, latitude, longitude, State/Province name, population   
+2. Build a Patricia tree to store the data in a tree format, as it imporves search spead than the trivial
+linear search. It also has the advantage over ternary search tree(TST). The TST's memory usage 
+depends on the depth of the tree which in turn, depends on the length of city name.
+If there are some long names in the data, TST becomes very RAM-inefficient.
+Patricia Tree could be considered as an improvement of TST.(https://en.wikipedia.org/wiki/Radix_tree)
+However, note that the build time for TST is much faster. (If just play around with concept, it is a good
+idea to start with TST)   
+3. Store the grown tree in a pickle file and load the tree in the completer object to response the incoming query.   
+4. use FLASK libraries to handle api requests,( parsing,error handling etc).   
+5. use POSTMAN to test.  
+### ABOUT THE ALGO AND FEATURES
+Give a slightly more weights to larger cities, as they might be more popular.
+have an additional api parameter called radius,(unit is KM)
+it takes a positive float and must be used with latitude and longitude.
+If this parameter is present, will only show the result within this radius.
+### TO DO
+If time permits, will add an automated unittest script.
+Add more documentation and comments.
+### PUSH FURHTER
+This completer only match the prefix(partial) and the exact(complete) String.
+It does not take consideration of mis-spellings.
+To incorporate this important feature, We could build another BK tree(https://en.wikipedia.org/wiki/BK-tree)
+with Levenshtein distance as a metric.(https://en.wikipedia.org/wiki/Levenshtein_distance)
+Do a fuzzy search with the BK tree and then search the returned results in the Patricia tree.
 
 ## Requirements
 
@@ -84,3 +120,6 @@ These responses are meant to provide guidance. The exact values can vary based o
 
 Begin by forking this repo and cloning your fork. GitHub has apps for [Mac](http://mac.github.com/) and
 [Windows](http://windows.github.com/) that make this easier.
+
+
+
